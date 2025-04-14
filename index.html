@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="apple-mobile-web-app-capable" content="yes">
-    <title>Wiktionary</title>
+    <title>Wiktionary App</title>
     <style>
         body {
             margin: 0;
             font-family: Arial, sans-serif;
-            /*background-color: #f0f0f0;*/
+            background-color: #f0f0f0;
         }
         #loading {
             display: none;
@@ -18,9 +18,13 @@
             font-size: 18px;
         }
         iframe {
-            width: 100vw;
+            width: 100%;
             height: 100vh;
             border: none;
+        }
+        /* Ensure input fields have a font size greater than 16px */
+        input, textarea, select {
+            font-size: 16px; /* Set font size to 16px or larger */
         }
     </style>
 </head>
